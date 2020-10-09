@@ -1,15 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Header from './components/header';
+import React, { Component } from 'react';
+import { MoonLoader } from 'react-spinners';
+
+import assetMapping from './assets/assetMapping.json';
+import classes from './App.css';
+import Header from './components/header/header';
+import Footer from './components/footer/footer';
+import WeatherDetails from './components/weatherdetails/weatherdetails';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Header></Header>
-      </header>
+      
+    <Header />
     </div>
   );
 }

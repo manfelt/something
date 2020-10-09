@@ -1,0 +1,14 @@
+.Logo {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    width: auto;
+}
+.Logo:hover {
+    cursor: pointer;
+}
+.Light {
+    cursor: pointer;
+}
+.Dark {
+    color: #606060;
+}
